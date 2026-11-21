@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>رحلتي: الدبلومة ثم البورتفوليو</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f2f0ff;--b1:#2dd4bf;--b2:#a78bfa;--b3:#fb7185;--b4:#fbbf24;--bo:.4;--card:rgba(255,255,255,.72);--bd:rgba(90,80,150,.16);--tx:#1e1b3a;--mu:#5f5b82;--ac:#0d9488;--ac2:#7c3aed;--h0:rgba(120,110,170,.14);--h1:#99f6e4;--h2:#5eead4;--h3:#14b8a6;--h4:#0f766e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090e1e;--bo:.5;--card:rgba(255,255,255,.06);--bd:rgba(255,255,255,.12);--tx:#eef2ff;--mu:#9aa6c4;--ac:#2dd4bf;--ac2:#a78bfa;--h1:#134e4a;--h2:#0f766e;--h3:#14b8a6;--h4:#5eead4}}
+:root[data-theme="dark"]{--bg:#090e1e;--bo:.5;--card:rgba(255,255,255,.06);--bd:rgba(255,255,255,.12);--tx:#eef2ff;--mu:#9aa6c4;--ac:#2dd4bf;--ac2:#a78bfa;--h1:#134e4a;--h2:#0f766e;--h3:#14b8a6;--h4:#5eead4}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Cairo,"Segoe UI",Tahoma,sans-serif;line-height:1.7}
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;background:var(--bg)}
+.bg i{position:absolute;border-radius:50%;filter:blur(80px);opacity:var(--bo);animation:fl 24s ease-in-out infinite alternate}
+.bg i:nth-child(1){width:50vmax;height:50vmax;background:var(--b1);top:-16vmax;right:-14vmax}
+.bg i:nth-child(2){width:46vmax;height:46vmax;background:var(--b2);bottom:-14vmax;left:-12vmax;animation-delay:-8s}
+.bg i:nth-child(3){width:34vmax;height:34vmax;background:var(--b3);top:38%;left:30%;animation-delay:-15s;opacity:calc(var(--bo)*.55)}
+.bg i:nth-child(4){width:26vmax;height:26vmax;background:var(--b4);top:8%;left:6%;animation-delay:-4s;opacity:calc(var(--bo)*.45)}
+.bg::after{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--bd) 1px,transparent 1px);background-size:28px 28px}
+@keyframes fl{to{transform:translate(9vmax,7vmax) scale(1.25) rotate(25deg)}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@media (prefers-reduced-motion:reduce){.bg i,.card{animation:none}}
+main{max-width:820px;margin:0 auto;padding:18px 14px 50px}
+h1{font-size:28px;font-weight:800;margin:4px 0;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:18px;font-weight:800;margin:0 0 8px}
+.mu,.sub{color:var(--mu);font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:16px;margin-bottom:14px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);animation:rise .6s both}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.pill,.ch{display:inline-block;padding:2px 12px;border-radius:99px;font-size:13px;font-weight:600;background:var(--h0);color:var(--tx)}
+.ch.g{background:rgba(251,146,60,.2);color:#ea580c}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.rings{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px}
+.rc{position:relative;width:100%;max-width:150px;margin:auto}
+.rc svg{width:100%;display:block}
+.tr{fill:none;stroke:var(--h0);stroke-width:10}
+.rg{fill:none;stroke-width:10;stroke-linecap:round;transition:stroke-dashoffset 1.2s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 0 5px rgba(45,212,191,.45))}
+.ct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;line-height:1.2}
+.ct b{font-size:22px;font-weight:800}.ct span{font-size:11px;color:var(--mu);max-width:84px}
+#sum{margin:12px 0 4px;font-size:16px}#sum b{color:var(--ac);font-size:19px}
+.dh{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.bt{border:1px solid var(--bd);background:var(--h0);color:var(--tx);border-radius:12px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.dip{display:flex;justify-content:space-between;align-items:center;margin:12px 0 6px}
+.dip span{display:block;font-size:13px;color:var(--mu)}
+.st{display:flex;align-items:center;gap:12px}.st strong{font-size:22px;min-width:34px;text-align:center}
+.st button{width:38px;height:38px;border-radius:50%;border:0;font-size:22px;cursor:pointer;color:#fff;background:linear-gradient(135deg,var(--ac),var(--ac2));transition:transform .15s}
+.st button:active{transform:scale(.88)}
+.bar{height:9px;border-radius:99px;background:var(--h0);overflow:hidden;margin-bottom:10px}
+.bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--ac),var(--ac2));transition:width .5s}
+.tk{display:flex;gap:12px;align-items:center;padding:10px 12px;border-radius:14px;margin-bottom:6px;background:var(--h0);cursor:pointer;transition:.25s}
+.tk input{width:22px;height:22px;accent-color:var(--ac);flex:none}
+.tk b{display:block;font-weight:600}.tk span{font-size:12px;color:var(--mu)}
+.tk.dn{background:rgba(45,212,191,.18)}.tk.dn b{text-decoration:line-through;opacity:.6}
+textarea{width:100%;min-height:78px;margin-top:6px;padding:10px;border-radius:14px;border:1px solid var(--bd);background:var(--h0);color:var(--tx);font:inherit;resize:vertical}
+.wk{display:grid;grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:8px}
+.wd{padding:8px;border-radius:14px;background:var(--h0);text-align:center;font-size:12px;line-height:1.5}
+.wd b{display:block;font-size:14px}.wd span{display:block;color:var(--mu)}
+.wd.nw{outline:2px solid var(--ac);background:rgba(45,212,191,.16)}
+.cr{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dashed var(--bd)}
+.cr:last-child{border:0}.cr .n{flex:1}.cr small{display:block;color:var(--mu)}
+.cr .bar{margin:4px 0 0;height:6px}
+.cr button{width:30px;height:30px;border-radius:50%;border:1px solid var(--bd);background:var(--h0);color:var(--tx);font-size:18px;cursor:pointer}
+.cr em{font-style:normal;font-weight:700;min-width:44px;text-align:center}
+#heat{overflow-x:auto;direction:ltr;padding-bottom:6px}
+.hm{width:max-content}
+.ml{display:grid;gap:3px;height:16px;font-size:10px;color:var(--mu);margin-left:36px;white-space:nowrap}
+.gw{display:flex;gap:6px}.wl{display:grid;grid-template-rows:repeat(7,14px);gap:3px;width:30px;font-size:9px;color:var(--mu);line-height:14px}
+.gr{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,14px);grid-auto-columns:14px;gap:3px}
+.c{border-radius:4px;background:var(--h0);cursor:pointer;transition:transform .15s}.c:hover{transform:scale(1.4)}
+.l1{background:var(--h1)}.l2{background:var(--h2)}.l3{background:var(--h3)}.l4{background:var(--h4);box-shadow:0 0 8px var(--h4)}
+.fu{opacity:.3}.to{outline:2px solid var(--ac2)}.se{outline:2px solid var(--tx)}
+.lg{display:flex;gap:4px;align-items:center;font-size:11px;color:var(--mu);margin-top:6px;direction:ltr;justify-content:flex-end}
+.lg i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.hl{max-height:300px;overflow-y:auto}
+.hr{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:8px 10px;border-radius:12px;cursor:pointer}
+.hr:hover{background:var(--h0)}.hr em{font-style:normal;color:var(--ac);font-weight:800}.hr span{grid-column:1/3;font-size:12px;color:var(--mu)}
+input[type=date]{padding:6px 10px;border-radius:10px;border:1px solid var(--bd);background:var(--h0);color:var(--tx);font:inherit}
+ul{margin:6px 0;padding-inline-start:20px}
+</style>
+</head>
+<body>
+<div class="bg"><i></i><i></i><i></i><i></i></div>
+<main>
+<div class="top"><div><h1>رحلتي: الدبلومة ثم البورتفوليو</h1><div class="sub" id="dt"></div></div><span class="pill" id="stt"></span></div>
+
+<section class="card" style="margin-top:12px">
+<h2>عداد التحدي</h2>
+<div class="rings" id="rings"></div>
+<div id="sum"></div>
+<div class="chips" id="chp"></div>
+</section>
+
+<section class="card"><div id="day"></div></section>
+
+<section class="card">
+<h2>أسبوعي <span class="sub" id="wkh"></span></h2>
+<div class="wk" id="wk"></div>
+<p class="sub" style="margin:10px 0 0">الساعات المطلوبة بتقل في أيام الجامعة، وبتزيد في الأيام الفاضية زي السبت والاتنين والأربع.</p>
+</section>
+
+<section class="card">
+<h2>الدبلومة من الأول</h2>
+<div id="crs"></div>
+<hr style="border:0;border-top:1px solid var(--bd);margin:12px 0">
+<label class="sub">بداية التحدي: <input type="date" id="sd"></label>
+</section>
+
+<section class="card">
+<h2>خريطة نشاطي</h2>
+<div id="heat"></div>
+<div class="lg">أقل <i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i> أكتر</div>
+<p class="sub" style="margin:6px 0 0">اضغط على أي يوم تشوف اللي عملته فيه، وتقدر تعدله أو تسجل يوم فاتك.</p>
+</section>
+
+<section class="card">
+<h2>سجل الأيام</h2>
+<div class="hl" id="hist"></div>
+<button class="bt" id="exp" style="margin-top:10px">نسخة احتياطية من السجل</button>
+</section>
+
+<section class="card">
+<h2>بعد الدبلومة: البورتفوليو (3 أسابيع)</h2>
+<div class="sub" id="pf"></div>
+<ul class="sub"><li>أسبوع 1: اختار 3 مشاريع (Excel وSQL وPower BI) واكتب لكل واحد Case Study.</li><li>أسبوع 2: ابني الموقع وارفعه على GitHub Pages.</li><li>أسبوع 3: راجع وحسّن وضيف مشروع Python وحط اللينك في LinkedIn.</li></ul>
+</section>
+</main>
+<script>
+(function(){
+var AD=['الحد','الاتنين','التلات','الأربع','الخميس','الجمعة','السبت'],AM=['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'];
+var DC=[{u:'9 – 11',g:1,t:3},{t:3.5},{u:'9 – 1',g:1,t:2},{t:3.5},{u:'9 – 3',g:1,t:1.5},{t:2.5,r:1},{g:1,t:3.5}];
+var CR=[{id:'st',n:'Statistics',l:7,v:3.2,h:4.8},{id:'xl',n:'Excel for Data Analysis',l:29,v:18.4,h:27.6},{id:'bz',n:'Business Fundamentals',l:11,v:3.8,h:5.7},{id:'tb',n:'Tableau',l:4,v:5.7,h:8.6},{id:'pb',n:'Power BI',l:26,v:12.8,h:19.2},{id:'sq',n:'SQL for Data Analysis',l:29,v:11.5,h:17.3},{id:'py',n:'Python',l:10,v:17.7,h:26.6},{id:'fr',n:'Freelance',l:1,v:3.6,h:3.6}];
+var TH=CR.reduce(function(a,c){return a+c.h},0),WH=DC.reduce(function(a,c){return a+c.t},0);
+function $(s){return document.querySelector(s)}
+function p2(n){return String(n).padStart(2,'0')}
+function ymd(d){return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate())}
+function prs(s){var a=s.split('-').map(Number);return new Date(a[0],a[1]-1,a[2])}
+function sod(d){var x=new Date(d);x.setHours(0,0,0,0);return x}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function fd(d){return d.getDate()+' '+AM[d.getMonth()]}
+var S={start:'2026-11-22',c:{}},D={},col=null,stt='local',sel=ymd(new Date()),first=true,pend={},tmr;
+
+function tf(d){var c=DC[d.getDay()],t=[{i:'en',n:'إنجليزي',s:'30 دقيقة'},{i:'bk',n:'قراءة كتاب',s:'حوالي 30 صفحة'},{i:'rp',n:'بودكاست ديني',s:'45 دقيقة'}];
+if(c.g)t.push({i:'gy',n:'الجيم',s:'عصر أو بعد المغرب'});if(c.r)t.push({i:'rv',n:'مراجعة الأسبوع',s:'اكتب أهم 3 حاجات اتعلمتها'});
+t.push({i:'pc',n:'بودكاست مفيد',s:'بونص',b:1});return t}
+function ed(k){return D[k]||(D[k]={t:{},h:0,n:''})}
+function pct(k){var x=D[k];if(!x)return 0;var d=prs(k),s=Math.min(1,(x.h||0)/DC[d.getDay()].t),ts=tf(d).filter(function(t){return!t.b});
+ts.forEach(function(t){if(x.t&&x.t[t.i])s++});return s/(ts.length+1)}
+function lv(p){return p>=.999?4:p>=.7?3:p>=.4?2:p>0?1:0}
+
+function lsGet(){try{return JSON.parse(localStorage.getItem('rm2'))}catch(e){return null}}
+function lsSet(){try{localStorage.setItem('rm2',JSON.stringify({S:S,D:D}))}catch(e){}}
+function sv(k){lsSet();pend[k]=1;clearTimeout(tmr);tmr=setTimeout(flush,700)}
+async function flush(){if(!col)return;var ks=Object.keys(pend);for(var i=0;i<ks.length;i++){var k=ks[i];delete pend[k];
+try{if(k==='state')await col.doc('state').set(S);else await col.doc('d-'+k).set(D[k])}catch(e){stt='err';badge()}}}
+function badge(){$('#stt').textContent=stt==='cloud'?'☁️ محفوظ على حسابك':stt==='err'?'⚠️ مشكلة في الحفظ':'💾 محفوظ في المتصفح بس'}
+
+function pj(){var rem=0;CR.forEach(function(c){rem+=c.h*(1-Math.min(1,(S.c[c.id]||0)/c.l))});
+var T=sod(new Date()),cur=new Date(Math.max(T,prs(S.start))),n=0,g=0;
+while(rem>.01&&g<900){var h=DC[cur.getDay()].t,it=ymd(cur)===ymd(T);if(it)h=Math.max(0,h-((D[ymd(cur)]||{}).h||0));
+if(h>0||!it)n++;rem-=h;g++;if(rem>.01)cur.setDate(cur.getDate()+1)}
+return{left:n,end:cur}}
+function streak(){var s=0,d=sod(new Date()),st=prs(S.start);if(pct(ymd(d))<.7)d.setDate(d.getDate()-1);
+while(d>=st&&pct(ymd(d))>=.7){s++;d.setDate(d.getDate()-1)}return s}
+
+function ring(p,big,sub,a,b,i){return'<div class="rc"><svg viewBox="0 0 120 120"><defs><linearGradient id="g'+i+'" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="'+a+'"/><stop offset="1" stop-color="'+b+'"/></linearGradient></defs><circle cx="60" cy="60" r="52" class="tr"/><circle cx="60" cy="60" r="52" class="rg" stroke="url(#g'+i+')" data-p="'+Math.max(0,Math.min(1,p))+'" stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90 60 60)"/></svg><div class="ct"><b>'+big+'</b><span>'+sub+'</span></div></div>'}
+function rings(){var P=pj(),T=sod(new Date()),st=prs(S.start),x=D[ymd(T)]||{h:0},cfg=DC[T.getDay()];
+var passed=T<st?0:Math.round((T-st)/864e5)+1,total=Math.max(1,passed+P.left);
+var worked=Object.keys(D).filter(function(q){return D[q].h>0}).length;
+var done=CR.reduce(function(a,c){return a+c.h*Math.min(1,(S.c[c.id]||0)/c.l)},0)/TH;
+$('#rings').innerHTML=ring(passed/total,passed+'/'+total,'يوم من التحدي','#2dd4bf','#38bdf8',1)+ring(done,Math.round(done*100)+'%','الدبلومة خلصت','#a78bfa','#f472b6',2)+ring(passed?worked/passed:0,worked,'يوم شغلت فيه','#fbbf24','#fb7185',3)+ring((x.h||0)/cfg.t,(x.h||0)+'/'+cfg.t+'س','دبلومة النهارده','#34d399','#2dd4bf',4);
+$('#sum').innerHTML=P.left?(T<st?'التحدي يبدأ '+fd(st)+' · ':'')+'فاضل <b>'+P.left+'</b> يوم شغل، وهتخلص تقريبًا <b>'+fd(P.end)+' '+P.end.getFullYear()+'</b>':'خلصت الدبلومة 🎉';
+var e2=new Date(P.end);e2.setDate(e2.getDate()+21);
+$('#chp').innerHTML='<span class="pill">🔥 '+streak()+' يوم متتالي</span><span class="pill">⏱ '+WH+' ساعة في الأسبوع</span>';
+$('#pf').textContent=P.left?'لو مشيت على الخطة، الموقع يكون أونلاين تقريبًا '+fd(e2)+' '+e2.getFullYear()+'.':'ابدأ البورتفوليو من النهارده.';
+requestAnimationFrame(function(){requestAnimationFrame(function(){document.querySelectorAll('.rg').forEach(function(c){c.style.strokeDashoffset=326.7*(1-c.dataset.p)})})})}
+
+function dayCard(){var d=prs(sel),c=DC[d.getDay()],x=D[sel]||{t:{},h:0,n:''},ts=tf(d),isT=sel===ymd(new Date()),h=x.h||0;
+var s='<div class="dh"><div><h2>'+AD[d.getDay()]+' '+fd(d)+(isT?' · النهارده':'')+'</h2><div class="chips"><span class="ch">'+(c.u?'🎓 جامعة '+c.u:'🌿 مفيش جامعة')+'</span><span class="ch'+(c.g?' g':'')+'">'+(c.g?'🏋️ جيم':'😌 راحة من الجيم')+'</span></div></div>'+(isT?'':'<button class="bt" data-a="back">رجوع للنهارده</button>')+'</div>';
+s+='<div class="dip"><div><b>الدبلومة</b><span>المطلوب '+c.t+' ساعة</span></div><div class="st"><button data-a="hm">−</button><strong>'+h+'</strong><button data-a="hp">+</button></div></div><div class="bar"><i style="width:'+Math.min(100,h/c.t*100)+'%"></i></div>';
+ts.forEach(function(t){var on=x.t&&x.t[t.i];s+='<label class="tk'+(on?' dn':'')+'"><input type="checkbox" data-a="tk" data-i="'+t.i+'"'+(on?' checked':'')+'><div><b>'+t.n+'</b><span>'+(t.s||'')+'</span></div></label>'});
+s+='<textarea id="note" placeholder="عملت إيه النهارده؟ وقفت عند أنهي درس؟">'+esc(x.n||'')+'</textarea>';$('#day').innerHTML=s}
+
+function wp(){$('#wkh').textContent='· '+WH+' ساعة دبلومة';$('#wk').innerHTML=[6,0,1,2,3,4,5].map(function(i){var c=DC[i];
+return'<div class="wd'+(i===new Date().getDay()?' nw':'')+'"><b>'+AD[i]+'</b><span>'+(c.u?'🎓 '+c.u:'فاضي')+'</span><span>'+(c.g?'🏋️':'😌')+' '+c.t+' ساعة</span></div>'}).join('')}
+
+function crs(){$('#crs').innerHTML=CR.map(function(c){var n=Math.min(c.l,S.c[c.id]||0);
+return'<div class="cr"><div class="n"><b>'+c.n+'</b><small>'+c.l+' درس · فيديو '+c.v+' س</small><div class="bar"><i style="width:'+n/c.l*100+'%"></i></div></div><button data-c="'+c.id+'" data-s="-1">−</button><em>'+n+'/'+c.l+'</em><button data-c="'+c.id+'" data-s="1">+</button></div>'}).join('')}
+
+function heat(){var T=sod(new Date()),st=prs(S.start),b=new Date(st);b.setDate(b.getDate()-((b.getDay()+1)%7));
+var tw=Math.floor((T-b)/6048e5),W=Math.max(26,tw+4);if(W>80){b.setDate(b.getDate()+(W-80)*7);W=80}
+var m='',c='',pm=-1;
+for(var w=0;w<W;w++){var d0=new Date(b);d0.setDate(d0.getDate()+w*7);var mo=d0.getMonth();m+='<span>'+(mo!==pm?AM[mo]:'')+'</span>';pm=mo;
+for(var r=0;r<7;r++){var d=new Date(d0);d.setDate(d.getDate()+r);var k=ymd(d),p=pct(k),l=(d>T||d<st)?0:lv(p);
+c+='<i class="c l'+l+(d>T?' fu':'')+(k===ymd(T)?' to':'')+(k===sel?' se':'')+'" data-d="'+k+'" title="'+fd(d)+': '+Math.round(p*100)+'%"></i>'}}
+$('#heat').innerHTML='<div class="hm"><div class="ml" style="grid-template-columns:repeat('+W+',14px)">'+m+'</div><div class="gw"><div class="wl"><span>سبت</span><span></span><span>اتنين</span><span></span><span>أربع</span><span></span><span>جمعة</span></div><div class="gr">'+c+'</div></div></div>';
+if(first){first=false;var e=$('#heat');e.scrollLeft=Math.max(0,tw*17-e.clientWidth/2)}}
+
+function hist(){var ks=Object.keys(D).filter(function(k){var x=D[k];return x.h>0||x.n||Object.keys(x.t||{}).some(function(i){return x.t[i]})}).sort().reverse();
+var th=ks.reduce(function(a,k){return a+(D[k].h||0)},0);
+$('#hist').innerHTML='<p class="mu" style="margin:0 0 6px">'+ks.length+' يوم مسجل · '+th+' ساعة دبلومة</p>'+ks.slice(0,150).map(function(k){var d=prs(k);
+return'<div class="hr" data-d="'+k+'"><b>'+AD[d.getDay()]+' '+fd(d)+'</b><em>'+Math.round(pct(k)*100)+'%</em><span>'+(D[k].h||0)+' س'+(D[k].n?' · '+esc(D[k].n.slice(0,70)):'')+'</span></div>'}).join('')}
+
+function render(){var t=new Date();$('#dt').textContent=AD[t.getDay()]+' '+fd(t)+' '+t.getFullYear();$('#sd').value=S.start;badge();rings();dayCard();wp();crs();heat();hist()}
+
+$('#day').addEventListener('click',function(e){var a=e.target.closest('[data-a]');if(!a)return;var t=a.dataset.a;if(t==='tk')return;
+if(t==='back')sel=ymd(new Date());else{var x=ed(sel);x.h=Math.max(0,Math.min(14,(x.h||0)+(t==='hp'?.5:-.5)));sv(sel)}render()});
+$('#day').addEventListener('change',function(e){var a=e.target.dataset;if(a.a==='tk'){ed(sel).t[a.i]=e.target.checked?1:0;sv(sel);render()}});
+$('#day').addEventListener('input',function(e){if(e.target.id==='note'){ed(sel).n=e.target.value;sv(sel);hist()}});
+$('#crs').addEventListener('click',function(e){var b=e.target.closest('[data-c]');if(!b)return;var c=CR.filter(function(x){return x.id===b.dataset.c})[0];
+S.c[c.id]=Math.max(0,Math.min(c.l,(S.c[c.id]||0)+Number(b.dataset.s)));sv('state');render()});
+function pick(e){var b=e.target.closest('[data-d]');if(!b)return;sel=b.dataset.d;render();$('#day').scrollIntoView({behavior:'smooth',block:'center'})}
+$('#heat').addEventListener('click',pick);$('#hist').addEventListener('click',pick);
+$('#sd').addEventListener('change',function(e){if(e.target.value){S.start=e.target.value;sv('state');render()}});
+$('#exp').addEventListener('click',async function(){try{var dl=await claude.use('downloads');if(dl)await dl.save({filename:'roadmap-backup.json',data:JSON.stringify({S:S,D:D})})}catch(e){}});
+
+var L=lsGet();if(L){S=Object.assign(S,L.S||{});D=L.D||{}}
+render();
+(async function(){try{
+var db=await claude.use('db'),u=await claude.use('user'),id=u&&await u.id();
+if(db&&id){col=db.collection('data/users/'+id);var snap=await col.get();
+if(snap.size){D={};snap.docs.forEach(function(d){var x=d.data();if(d.id==='state')S=Object.assign({start:'2026-11-22',c:{}},x);else if(d.id.indexOf('d-')===0)D[d.id.slice(2)]=x})}
+else{await col.doc('state').set(S);for(var k in D)await col.doc('d-'+k).set(D[k])}
+stt='cloud';lsSet();render()}}catch(e){}})();
+})();
+</script>
+</body>
+</html>
